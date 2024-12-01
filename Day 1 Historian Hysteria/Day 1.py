@@ -41,9 +41,6 @@ def get_input2():
                 party2_dict[num2]=0
             party2_dict[num2]+=1
     
-    print(f"{party1_nums=}")
-    print(f"{party2_dict=}")
-    
     return party1_nums,party2_dict
 
 
