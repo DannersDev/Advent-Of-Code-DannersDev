@@ -1,0 +1,26 @@
+Location listed by a unique number "location ID"
+
+Party is split into 2 groups.
+
+Input: 2 list of numbers.
+
+Task: "measure how far apart they are."
+
+Pair up the smallest number in the left list with smallest number in the right list.
+then the second, and so on.
+
+How far apart they are is the difference of the above pairs summed up.
+
+edge cases: 
+list of different lengths. 
+in this case end summation no more distance added.
+
+
+Solution Ideas:
+Do both lists need to be sorted first?
+I believe so. going to use py sorted for this but will use this as practice for other languages.
+
+Once both sort iterate through both.
+
+As we have to iterate though both list to read. we are instead going to insert into list respecting order using binary search.
+
